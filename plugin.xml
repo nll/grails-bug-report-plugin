@@ -1,0 +1,24 @@
+<plugin name='bug-report' version='0.1' grailsVersion='1.3.7 &gt; *'>
+  <author>White Road Software</author>
+  <title>Plugin summary/headline</title>
+  <description>\
+The grails bug report plugin enables the user to report problems and the automatic report of grails exceptions.
+This reports are saved and can be sent to a remote server or assembla ticket system.
+</description>
+  <documentation>http://www.whiteroad.pt/labs.php</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>pt.whiteroad.plugins.bugreport.BugController</resource>
+    <resource>pt.whiteroad.plugins.bugreport.Bug</resource>
+    <resource>UpdateBugInformationJob</resource>
+    <resource>pt.whiteroad.plugins.bugreport.BugService</resource>
+    <resource>pt.whiteroad.plugins.bugreport.BugTagLib</resource>
+  </resources>
+  <dependencies>
+    <plugin name='quartz' version='0.4.2 &gt; *' />
+  </dependencies>
+  <behavior />
+</plugin>
