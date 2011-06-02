@@ -1,0 +1,12 @@
+Sample Configuration
+
+
+grails {
+  plugins {
+    bugreport {
+      enable = true
+      reporter = BugReportUtil.assemblaReport("http://www.assembla.com/spaces/spacex/tickets/", "username", "password")
+      reportInterval = 10000
+    }
+  }
+}
