@@ -1,11 +1,12 @@
-<plugin name='bug-report' version='0.1' grailsVersion='1.3.7 &gt; *'>
-  <author>White Road Software</author>
-  <title>Plugin summary/headline</title>
+<plugin name='bug-report' version='0.1' grailsVersion='1.3.5 &gt; *'>
+  <author>Nuno Luís, Bruno Félix</author>
+  <authorEmail>nuno.lopes.luis@gmail.com, felix19350@gmail.com</authorEmail>
+  <title>Bug reporting plugin</title>
   <description>\
 The grails bug report plugin enables the user to report problems and the automatic report of grails exceptions.
 This reports are saved and can be sent to a remote server or assembla ticket system.
 </description>
-  <documentation>http://www.whiteroad.pt/labs.php</documentation>
+  <documentation>http://github.com/nll/grails-bug-report-plugin</documentation>
   <resources>
     <resource>BuildConfig</resource>
     <resource>Config</resource>
